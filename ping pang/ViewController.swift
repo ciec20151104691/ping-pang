@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var text1: UILabel!
     @IBOutlet weak var text2: UILabel!
+    @IBOutlet weak var number1: UILabel!
+    @IBOutlet weak var number2: UILabel!
 
     @IBAction func add(_ sender: Any) {
         var text:Int = 0
@@ -24,6 +26,23 @@ class ViewController: UIViewController {
         text = Int(text2.text!)!;
         text = text+1;
         text2.text = ("\(text)");
+    }
+    @IBAction func add2(_ sender: Any) {
+        var number:Int = 0
+        number = Int(number1.text!)!;
+        number = number+1;
+        number1.text = ("\(number)");
+
+    }
+    @IBAction func rightadd2(_ sender: Any) {
+        var number:Int = 0
+        number = Int(number2.text!)!;
+        number = number+1;
+        number2.text = ("\(number)");
+    }
+    @IBAction func AC2(_ sender: Any) {
+        number1.text = ("0");
+        number2.text = ("0");
     }
     @IBAction func AC(_ sender: Any) {
         text1.text = ("0");
