@@ -12,42 +12,66 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var text1: UILabel!
     @IBOutlet weak var text2: UILabel!
+    @IBOutlet weak var text3: UILabel!
+    @IBOutlet weak var text4: UILabel!
     @IBOutlet weak var number1: UILabel!
     @IBOutlet weak var number2: UILabel!
-
+    @IBOutlet weak var number3: UILabel!
+    @IBOutlet weak var number4: UILabel!
+    var a:Int = 0;
+    var b:Int = 0;
+    var c:Int = 0;
+    var d:Int = 0;
     @IBAction func add(_ sender: Any) {
-        var text:Int = 0
-        text = Int(text1.text!)!;
-        text = text+1;
-        text1.text = ("\(text)");
+        a = a + 1;
+        text1.text = ("\(a)");
+        if(a >= 11 && a>=2+b){
+            c = c+1;
+            text3.text = ("\(c)");
+            a = 0;
+            b = 0;
+            text1.text=("\(a)");
+            text2.text = ("\(b)");
+        }
+    
     }
     @IBAction func rightadd(_ sender: Any) {
-        var text:Int = 0
-        text = Int(text2.text!)!;
-        text = text+1;
-        text2.text = ("\(text)");
-    }
-    @IBAction func add2(_ sender: Any) {
-        var number:Int = 0
-        number = Int(number1.text!)!;
-        number = number+1;
-        number1.text = ("\(number)");
+        b = b + 1;
+        text2.text = ("\(b)");
+        if(b >= 11 && b>=2+a){
+            d = d+1;
+            text4.text = ("\(d)");
+            a = 0;
+            b = 0;
+            text1.text=("\(a)");
+            text2.text = ("\(b)");
+        }
+        
 
     }
+    @IBAction func add2(_ sender: Any) {
+        a = a + 1;
+        number1.text = ("\(a)");
+        if(a >= 11 && a>=2+b){
+            c = c+1;
+            number3.text = ("\(c)");
+            a = 0;
+            b = 0;
+            number1.text=("\(a)");
+            number2.text = ("\(b)");
+
+        }}
     @IBAction func rightadd2(_ sender: Any) {
-        var number:Int = 0
-        number = Int(number2.text!)!;
-        number = number+1;
-        number2.text = ("\(number)");
-    }
-    @IBAction func AC2(_ sender: Any) {
-        number1.text = ("0");
-        number2.text = ("0");
-    }
-    @IBAction func AC(_ sender: Any) {
-        text1.text = ("0");
-        text2.text = ("0");
-    }
+        a = a + 1;
+        number2.text = ("\(a)");
+        if(a >= 11 && a>=2+b){
+            c = c+1;
+            number4.text = ("\(c)");
+            a = 0;
+            b = 0;
+            number1.text=("\(a)");
+            number2.text = ("\(b)");
+        }}
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
