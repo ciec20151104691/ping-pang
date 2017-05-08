@@ -33,8 +33,23 @@ class ViewController: UIViewController {
             text1.text=("\(a)");
             text2.text = ("\(b)");
         }
-    
-    }
+        if(c == 3){
+            let alertVC = UIAlertController(title: "提示", message: "宋小宝胜！！！", preferredStyle: UIAlertControllerStyle.alert)
+            a=0;
+            b=0;
+            text1.text=("\(a)");
+            text2.text=("\(b)");
+            let acSure = UIAlertAction(title: "确定", style: UIAlertActionStyle.destructive) { (UIAlertAction) -> Void in
+                print("click Sure")
+                }
+            let acCancel = UIAlertAction(title: "取消", style: UIAlertActionStyle.cancel) {
+                (UIAlertAction) -> Void in
+                print("click Cancel")
+             }
+           alertVC.addAction(acSure)
+           alertVC.addAction(acCancel)
+        self.present(alertVC, animated: true, completion: nil)
+        }}
     @IBAction func subtraction(_ sender: Any) {
         a = Int(text1.text!)!
         if(a>0){
@@ -53,8 +68,23 @@ class ViewController: UIViewController {
             text1.text=("\(a)");
             text2.text = ("\(b)");
         }
-        
-
+        if(d == 3){
+            let alertVC = UIAlertController(title: "提示", message: "小沈阳胜！！！", preferredStyle: UIAlertControllerStyle.alert)
+            a=0;
+            b=0;
+            text1.text=("\(a)");
+            text2.text=("\(b)");
+            let acSure = UIAlertAction(title: "确定", style: UIAlertActionStyle.destructive) { (UIAlertAction) -> Void in
+                print("click Sure")
+            }
+            let acCancel = UIAlertAction(title: "取消", style: UIAlertActionStyle.cancel) {
+                (UIAlertAction) -> Void in
+                print("click Cancel")
+            }
+            alertVC.addAction(acSure)
+            alertVC.addAction(acCancel)
+            self.present(alertVC, animated: true, completion: nil)
+        }
     }
     @IBAction func rightsubtraction(_ sender: Any) {
         b = Int(text2.text!)!
@@ -74,7 +104,26 @@ class ViewController: UIViewController {
             number1.text=("\(a)");
             number2.text = ("\(b)");
 
-        }}
+        }
+        if(c == 3){
+            let alertVC = UIAlertController(title: "提示", message: "小沈阳胜！！！", preferredStyle: UIAlertControllerStyle.alert)
+            a=0;
+            b=0;
+            number1.text=("\(a)");
+            number2.text=("\(b)");
+            let acSure = UIAlertAction(title: "确定", style: UIAlertActionStyle.destructive) { (UIAlertAction) -> Void in
+                print("click Sure")
+            }
+            let acCancel = UIAlertAction(title: "取消", style: UIAlertActionStyle.cancel) {
+                (UIAlertAction) -> Void in
+                print("click Cancel")
+            }
+            alertVC.addAction(acSure)
+            alertVC.addAction(acCancel)
+            self.present(alertVC, animated: true, completion: nil)
+        }
+
+    }
     @IBAction func subtraction2(_ sender: Any) {
         a = Int(number1.text!)!
         if(a>0){
@@ -92,7 +141,27 @@ class ViewController: UIViewController {
             b = 0;
             number1.text = ("\(a)");
             number2.text = ("\(b)");
-        }}
+        }
+        if(d == 3){
+            let alertVC = UIAlertController(title: "提示", message: "宋小宝胜！！！", preferredStyle: UIAlertControllerStyle.alert)
+            a=0;
+            b=0;
+            number1.text=("\(a)");
+            number2.text=("\(b)");
+            let acSure = UIAlertAction(title: "确定", style: UIAlertActionStyle.destructive) { (UIAlertAction) -> Void in
+                print("click Sure")
+            }
+            let acCancel = UIAlertAction(title: "取消", style: UIAlertActionStyle.cancel) {
+                (UIAlertAction) -> Void in
+                print("click Cancel")
+            }
+            alertVC.addAction(acSure)
+            alertVC.addAction(acCancel)
+            self.present(alertVC, animated: true, completion: nil)
+        }
+        
+
+    }
     @IBAction func rightsubtraction2(_ sender: Any) {
         b = Int(number2.text!)!
         if(b>0){
