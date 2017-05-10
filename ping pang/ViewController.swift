@@ -37,8 +37,12 @@ class ViewController: UIViewController {
             let alertVC = UIAlertController(title: "提示", message: "宋小宝胜！！！", preferredStyle: UIAlertControllerStyle.alert)
             a=0;
             b=0;
-            text1.text=("\(a)");
-            text2.text=("\(b)");
+            c=0;
+            d=0;
+            text1.text=("\(c)");
+            text2.text=("\(d)");
+            text3.text=("\(a)");
+            text4.text=("\(b)");
             let acSure = UIAlertAction(title: "确定", style: UIAlertActionStyle.destructive) { (UIAlertAction) -> Void in
                 print("click Sure")
                 }
@@ -50,14 +54,14 @@ class ViewController: UIViewController {
            alertVC.addAction(acCancel)
         self.present(alertVC, animated: true, completion: nil)
         }}
-    @IBAction func subtraction(_ sender: Any) {
+    @IBAction func subtraction(_ sender: Any){
         a = Int(text1.text!)!
         if(a>0){
             a = a - 1;
         }
         text1.text = ("\(a)");
     }
-    @IBAction func rightadd(_ sender: Any) {
+    @IBAction func rightadd(_ sender: Any){
         b = b + 1;
         text2.text = ("\(b)");
         if(b >= 11 && b>=2+a){
@@ -72,8 +76,12 @@ class ViewController: UIViewController {
             let alertVC = UIAlertController(title: "提示", message: "小沈阳胜！！！", preferredStyle: UIAlertControllerStyle.alert)
             a=0;
             b=0;
-            text1.text=("\(a)");
-            text2.text=("\(b)");
+            c=0;
+            d=0;
+            text1.text=("\(c)");
+            text2.text=("\(d)");
+            text3.text=("\(a)");
+            text4.text=("\(b)");
             let acSure = UIAlertAction(title: "确定", style: UIAlertActionStyle.destructive) { (UIAlertAction) -> Void in
                 print("click Sure")
             }
@@ -109,8 +117,12 @@ class ViewController: UIViewController {
             let alertVC = UIAlertController(title: "提示", message: "小沈阳胜！！！", preferredStyle: UIAlertControllerStyle.alert)
             a=0;
             b=0;
-            number1.text=("\(a)");
-            number2.text=("\(b)");
+            c=0;
+            d=0;
+            number1.text=("\(c)");
+            number2.text=("\(d)");
+            number3.text=("\(a)");
+            number4.text=("\(b)");
             let acSure = UIAlertAction(title: "确定", style: UIAlertActionStyle.destructive) { (UIAlertAction) -> Void in
                 print("click Sure")
             }
@@ -146,8 +158,12 @@ class ViewController: UIViewController {
             let alertVC = UIAlertController(title: "提示", message: "宋小宝胜！！！", preferredStyle: UIAlertControllerStyle.alert)
             a=0;
             b=0;
-            number1.text=("\(a)");
-            number2.text=("\(b)");
+            c=0;
+            d=0;
+            number1.text=("\(c)");
+            number2.text=("\(d)");
+            number3.text=("\(a)");
+            number4.text=("\(b)");
             let acSure = UIAlertAction(title: "确定", style: UIAlertActionStyle.destructive) { (UIAlertAction) -> Void in
                 print("click Sure")
             }
