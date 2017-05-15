@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,
+    UIImagePickerControllerDelegate,
+    UINavigationControllerDelegate{
 
     @IBOutlet weak var text1: UILabel!
     @IBOutlet weak var text2: UILabel!
@@ -22,6 +24,100 @@ class ViewController: UIViewController {
     var b:Int = 0;
     var c:Int = 0;
     var d:Int = 0;
+    var dlg:Int = 0;
+    var flagA:Int = 0;
+    var flagB:Int = 0;
+    @IBAction func photo1(_ sender: Any) {
+        if(dlg==0){
+            flagA=1
+            flagB=0
+            if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
+                //初始化图片控制器
+                let picker = UIImagePickerController()
+                //设置代理
+                picker.delegate = self
+                //指定图片控制器类型
+                picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+                //弹出控制器，显示界面
+                self.present(picker,animated: true,
+                    completion: {
+                    ()->Void in
+                })
+                
+            }else{
+                print("读取相册错误")
+                }
+           }
+    }
+    @IBAction func photo2(_ sender: Any) {
+        if(dlg==0){
+            flagA=1
+            flagB=0
+            if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
+                //初始化图片控制器
+                let picker = UIImagePickerController()
+                //设置代理
+                picker.delegate = self
+                //指定图片控制器类型
+                picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+                //弹出控制器，显示界面
+                self.present(picker,animated: true,
+                             completion: {
+                                ()->Void in
+                })
+                
+            }else{
+                print("读取相册错误")
+            }
+        }
+
+    }
+    @IBAction func photo3(_ sender: Any) {
+        if(dlg==0){
+            flagA=1
+            flagB=0
+            if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
+                //初始化图片控制器
+                let picker = UIImagePickerController()
+                //设置代理
+                picker.delegate = self
+                //指定图片控制器类型
+                picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+                //弹出控制器，显示界面
+                self.present(picker,animated: true,
+                             completion: {
+                                ()->Void in
+                })
+                
+            }else{
+                print("读取相册错误")
+            }
+        }
+
+    }
+    @IBAction func photo4(_ sender: Any) {
+        if(dlg==0){
+            flagA=1
+            flagB=0
+            if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
+                //初始化图片控制器
+                let picker = UIImagePickerController()
+                //设置代理
+                picker.delegate = self
+                //指定图片控制器类型
+                picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+                //弹出控制器，显示界面
+                self.present(picker,animated: true,
+                             completion: {
+                                ()->Void in
+                })
+                
+            }else{
+                print("读取相册错误")
+            }
+        }
+
+    }
     @IBAction func add(_ sender: Any) {
         a = a + 1;
         text1.text = ("\(a)");
