@@ -107,7 +107,7 @@
                                     <action selector="rightsubtraction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="huL-Uf-PdX"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="屏幕快照 2017-03-29 上午10.51.01.png" translatesAutoresizingMaskIntoConstraints="NO" id="RPo-21-xpS">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="timg-4.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="RPo-21-xpS">
                                 <rect key="frame" x="47" y="151" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -159,6 +159,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="屏幕快照 2017-03-29 上午10.51.01.png" width="676" height="483"/>
+        <image name="timg-4.jpeg" width="800" height="682"/>
     </resources>
 </document>

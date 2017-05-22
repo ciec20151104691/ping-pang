@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D274E331ED2817500A211F2 /* timg-4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D274E321ED2817500A211F2 /* timg-4.jpeg */; };
 		7D8DFA251EB03B5C00978690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8DFA241EB03B5C00978690 /* AppDelegate.swift */; };
 		7D8DFA271EB03B5C00978690 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8DFA261EB03B5C00978690 /* ViewController.swift */; };
 		7D8DFA2A1EB03B5C00978690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8DFA281EB03B5C00978690 /* Main.storyboard */; };
@@ -16,7 +17,6 @@
 		7D8DFA451EB03B5C00978690 /* ping_pangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8DFA441EB03B5C00978690 /* ping_pangUITests.swift */; };
 		7D8DFA541EB03BC300978690 /* u=2655443955,2364649892&fm=23&gp=0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D8DFA521EB03BC300978690 /* u=2655443955,2364649892&fm=23&gp=0.jpg */; };
 		7D8DFA551EB03BC300978690 /* u=1754477672,3353638985&fm=23&gp=0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D8DFA531EB03BC300978690 /* u=1754477672,3353638985&fm=23&gp=0.jpg */; };
-		7D8DFA571EB03BCA00978690 /* 屏幕快照 2017-03-29 上午10.51.01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8DFA561EB03BCA00978690 /* 屏幕快照 2017-03-29 上午10.51.01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D274E321ED2817500A211F2 /* timg-4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "timg-4.jpeg"; path = "../../../Downloads/timg-4.jpeg"; sourceTree = "<group>"; };
 		7D8DFA211EB03B5C00978690 /* ping pang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ping pang.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8DFA241EB03B5C00978690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D8DFA261EB03B5C00978690 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		7D8DFA461EB03B5C00978690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D8DFA521EB03BC300978690 /* u=2655443955,2364649892&fm=23&gp=0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "u=2655443955,2364649892&fm=23&gp=0.jpg"; path = "../../../Downloads/u=2655443955,2364649892&fm=23&gp=0.jpg"; sourceTree = "<group>"; };
 		7D8DFA531EB03BC300978690 /* u=1754477672,3353638985&fm=23&gp=0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "u=1754477672,3353638985&fm=23&gp=0.jpg"; path = "../../../Downloads/u=1754477672,3353638985&fm=23&gp=0.jpg"; sourceTree = "<group>"; };
-		7D8DFA561EB03BCA00978690 /* 屏幕快照 2017-03-29 上午10.51.01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "屏幕快照 2017-03-29 上午10.51.01.png"; path = "../../屏幕快照 2017-03-29 上午10.51.01.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		7D8DFA231EB03B5C00978690 /* ping pang */ = {
 			isa = PBXGroup;
 			children = (
-				7D8DFA561EB03BCA00978690 /* 屏幕快照 2017-03-29 上午10.51.01.png */,
+				7D274E321ED2817500A211F2 /* timg-4.jpeg */,
 				7D8DFA521EB03BC300978690 /* u=2655443955,2364649892&fm=23&gp=0.jpg */,
 				7D8DFA531EB03BC300978690 /* u=1754477672,3353638985&fm=23&gp=0.jpg */,
 				7D8DFA241EB03B5C00978690 /* AppDelegate.swift */,
@@ -242,11 +242,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D8DFA2F1EB03B5C00978690 /* LaunchScreen.storyboard in Resources */,
-				7D8DFA571EB03BCA00978690 /* 屏幕快照 2017-03-29 上午10.51.01.png in Resources */,
 				7D8DFA541EB03BC300978690 /* u=2655443955,2364649892&fm=23&gp=0.jpg in Resources */,
 				7D8DFA2C1EB03B5C00978690 /* Assets.xcassets in Resources */,
 				7D8DFA551EB03BC300978690 /* u=1754477672,3353638985&fm=23&gp=0.jpg in Resources */,
 				7D8DFA2A1EB03B5C00978690 /* Main.storyboard in Resources */,
+				7D274E331ED2817500A211F2 /* timg-4.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +517,7 @@
 				7D8DFA4B1EB03B5C00978690 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D8DFA4C1EB03B5C00978690 /* Build configuration list for PBXNativeTarget "ping pangTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +526,7 @@
 				7D8DFA4E1EB03B5C00978690 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D8DFA4F1EB03B5C00978690 /* Build configuration list for PBXNativeTarget "ping pangUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +535,7 @@
 				7D8DFA511EB03B5C00978690 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

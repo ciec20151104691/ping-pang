@@ -180,6 +180,9 @@ class ViewController: UIViewController,
         let number = text4.text
         text4.text = text3.text
         text3.text = number
+        let e = c
+        c = d
+        d = e
     }
      override func viewDidLoad() {
         super.viewDidLoad()
